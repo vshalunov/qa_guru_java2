@@ -25,5 +25,12 @@ public class  Main {
         uve.readToLeft();
         uve.setTotalCountOfPages(380);
         uve.readToLeft();
+
+        Book hygge = new Book("Hygge", "Викинг Майк", 288, 103);
+        hygge.cover = new Book.Cover("Бежевый");
+        hygge.cover.sayColorCover();
+        hygge.sayNameBook();
+        hygge.sayNameAuthor();
+        hygge.readToLeft();
     }
 }
